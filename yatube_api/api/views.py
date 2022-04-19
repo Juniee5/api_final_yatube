@@ -8,8 +8,7 @@ from rest_framework.permissions import (
 from posts.models import Group, Post
 from api.permissions import IsAuthorOrReadOnly
 from api.serializers import (
-    CommentSerializer, FollowSerializer,
-GroupSerializer, PostSerializer
+    CommentSerializer, FollowSerializer, GroupSerializer, PostSerializer
 )
 
 
